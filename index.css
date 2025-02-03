@@ -1,19 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 body{
     background-color: black;
     color: white;
-background-image: url(BlackPeper.jpg);
-
-
+background-image: url( Design\ sem\ nome\(6\).png);
+background-size: cover;  
+ 
+background-repeat: no-repeat;
 }
 
-p {
+.texto {
 
+    font-size: 21px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    font-style: Oswald; /* Itálico */
+    font-family: "Roboto Mono";
+    
+    color: rgb(255, 255, 255);
 
-    color: aqua;
+    position: absolute; /* ou relative, fixed, sticky */
+    top: 160px;
+    left: 160px;
 }
+
+
+
+
+
+
 a{
+    font-size:50px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    font-style: Oswald; /* Itálico */
+    font-family: "Roboto Mono";
+    
+    color: rgb(255, 255, 255);
+
+    position: absolute; /* ou relative, fixed, sticky */
+    top: 580px;
+    left: 410px;
+    
 
 
-    color: blue;
 }
+
+    
