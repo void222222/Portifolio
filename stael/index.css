@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+
+
+body {height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+color: antiquewhite;
+    }
+    
+
+
+
+
+.apresentacao{
+    margin: 10% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+.apresentacaoDestaque{
+    font-size: 40px;
+    font-family: "Roboto Mono", serif;
+    color: #00ffff;
+
+
+}
+
+
+.titulo{
+    font-size: 34px;
+    font-family: "Roboto Mono", serif;
+    color: #ffffff;
+    
+}
+
+
+
+.texto{
+color: #fcfcfc;
+    font-size: 20px;
+    font-family:    "Playfair Display", serif;
+
+
+}
+
+
+.minhaFOTO{
+width: 500px;
+border-radius: 100px;
+
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 4px; 
+    width: 100%;
+    padding: 5px 0px;
+    
+}
+
+.subMAX{   
+font-family: "Kanit", serif;
+font-weight: 500;
+color: #ffffff; 
+}
+
+
+.botao {
+display: flex;
+justify-content: center;
+ width: 100%; /* Faz com que ele ocupe toda a largura disponível */
+ margin-top: 20px; 
+}
+
+
+.supra_botao{
+display: flex;
+justify-content: center;
+gap: 10px;
+border:2px solid#00ffff;
+width: 280px;
+border-radius: 8px;
+text-align: center;
+font-size: 30px;
+padding: 10px 0px;
+text-decoration: none;
+color: #ffffff;
+font-family: "Montserrat", serif;
+}
+
+.GitHubIcon{
+width: 35px;
+
+
+
+
+
+}
+
+
+.supra_botao:hover{
+
+background-color: #00ffff;
+
+}
+
+.rodape{
+padding: 28px;
+color: #000000;
+background-color: #00ffff;
+text-align: center;
+font-family:  "Roboto Mono", serif;
+font-size: 30px;
+font-weight: 300;
+}
+
+
+.cabesalhoMenu{
+display: flex;
+gap: 50px   ;
+padding: 5px 150px;
+
+}
+
+.LinkCabesalhoHome{
+color: #ffffff;
+font-family:  "Roboto Mono", serif;
+font-size: 30px;
+font-weight: 500;
+text-decoration: none;
+}
+
+.LinkCabesalhoSobremin{
+    color: #ffffff;
+    font-family:  "Roboto Mono", serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.Curicolo{
+    font-family: "Roboto Mono",serif;
+    color: #00ffff;
+    font-size: 35px;
+}
+
+.sobre{
+font-family: "Montserrat", serif;
+font-weight: 500;
+
+}
+.Competências{
+    font-family: "Roboto Mono",serif;
+    color: #00ffff;
+    font-size: 35px;
+  }
+
+.ListaDeCompetencias{
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.Experiencias{
+    font-family: "Roboto Mono",serif;
+    color: #00ffff;
+    font-size: 35px;
+    
+}
+
+.PeriodoRaízen{
+    font-family: "Roboto Mono",serif;
+    font-weight: 500;
+    color: #ffffff
+
+}
+
+.ListaDeAtividades{
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+
+.Estudos{
+    font-family: "Roboto Mono",serif;
+    color: #00ffff;
+    font-size: 35px;
+
+}
+
+.PeriodoETEC{
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.PeriodoETEC{
+font-family: "Montserrat", serif;
+    font-weight: 500;
+    color: #ffffff;
+
+
+}
+
+.ListaDeHabilidades{
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    color: #ffffff;
+
+}
