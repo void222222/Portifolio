@@ -439,5 +439,107 @@ gap:20px;
 
 }
 
+@media (max-width: 320px){
+
+
+
+    .nome-apresentacao {
+        font-family: var(--font-Segundaria);
+        color: var(--cor-Terciaria);
+        font-size: 1.200rem;
+    }
+    
+    .Sobre-min {
+        font-family: var(--font-Primaria);
+        font-size: 0.800rem;
+        font-weight: 500;
+        color: var(--cor-Segundaria);
+    }
+    
+
+    .rodape {
+        padding: 1%;
+        color: var(--cor-Primaria);
+        background-color: var(--cor-Terciaria);
+        text-align: center;
+        font-family: var(--font-Segundaria);
+        font-size: 1.500rem;
+        font-weight: 300;
+    }
+    
+    .Curricolo {
+        font-family: var(--font-Segundaria);
+        color: var(--cor-Terciaria);
+        font-size: 1.4400rem;
+    }
+
+
+
+    .Competências {
+        font-family: var(--font-Segundaria);
+        color: var(--cor-Terciaria);
+        font-size: 1.4400rem;
+    }
+
+    .Experiências {
+        font-family: var(--font-Segundaria);
+        color: var(--cor-Terciaria);
+        font-size: 1.4400rem;
+    }
+
+
+    .Formação-Acadêmica {
+        font-family: var(--font-Segundaria);
+        color: var(--cor-Terciaria);
+        font-size: 1.4400rem;
+    }
+
+
+    .sobre {
+        font-family: var(--font-Primaria);
+        font-weight: 500;
+        color: var(--cor-Segundaria);
+    }
+
+
+
+
+    .ListaDeCompetencias {
+        font-family: var(--font-Primaria);
+        font-weight: 500;
+        color: var(--cor-Segundaria);
+    }
+
+
+.PeriodoRaízen {
+    font-family: var(--font-Segundaria);
+    font-weight: 500;
+    color: var(--cor-Segundaria);
+}
+
+.ListaDeAtividades {
+    font-family: var(--font-Primaria);
+    font-weight: 500;
+    color: var(--cor-Segundaria);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+    
+}  
+
+
+
+
   
-  }
