@@ -4,8 +4,8 @@
     --cor-Primaria: #000000;
     --cor-Segundaria: #ffffff;
     --cor-Terciaria: #00ffc3;
-    --font-Primaria:"Montserrat", serif;
-    --font-Segundaria:"Roboto Mono", serif;
+    --font-Primaria:"Montserrat",  sans-serif;
+    --font-Segundaria:"Roboto Mono", monospace;
 }
 
 * {
@@ -208,53 +208,41 @@ body {
 .nome-apresentacao {
     font-family: var(--font-Segundaria);
     color: var(--cor-Terciaria);
-    font-size: 1.8rem;
+    font-size: 2.8rem;
+    
 }
 
 .Sobre-min {
+    font-size: 1.30rem;
     font-family: var(--font-Primaria);
-    font-weight: 500;
     color: var(--cor-Segundaria);
 }
 
 
 
 @media(max-width:1250px){
+
 .apresentacao{
 display: flex;
 flex-direction: column-reverse;
 gap:20px;
-}
-.botao {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 5%;
-}
-
-.supra_botao {
-    display: flex;
-    justify-content: center;
-    gap: 10%;
-    border: 0.125rem solid var(--cor-Terciaria);
-    width: 50%;
-    border-radius: 0.5rem;
-    text-align: center;
-    font-size: 1.875rem;
-    padding: 0.625rem 0.300rem;
-    text-decoration: none;
-    color: var(--cor-Segundaria);
-    font-family: var(--font-Primaria);
+width: auto;
 }
 
 .GitHubIcon {
-    width:25%;
+    width:15%;
 }
+
+
+
+
+
+
 }
 
 
   /* Para celulares médios */
-  @media (max-width: 768px) {
+  @media (max-width: 769px) {
     body {
       background-color: rgb(18, 27, 18);
     }
@@ -352,28 +340,15 @@ gap:20px;
     }
   
     .LinkCabecalhoHome {
-        color: var(--cor-Segundaria);
-        font-family: var(--font-Segundaria);
-        font-size: 0.900rem;
-        font-weight: 500;
-        text-decoration: none;
-        
+     font-size: 0.900rem; 
     }
     
     .LinkCabecalhoSobremin {
-        color: var(--cor-Segundaria);
-        font-family: var(--font-Segundaria);
-        font-size: 0.900rem;
-        font-weight: 500;
-        text-decoration: none;
+      font-size: 0.900rem;
     }
     
     .LinkCabecalhoCurricolo {
-        color: var(--cor-Segundaria);
-        font-family: var(--font-Segundaria);
         font-size: 0.900rem;
-        font-weight: 500;
-        text-decoration: none;
     }
     
     .apresentacao {
@@ -382,59 +357,40 @@ gap:20px;
     }
 
     .apresentacaoDestaque {
-        font-size: 1.000rem;
-        font-family: var(--font-Segundaria);
-        color: var(--cor-Terciaria);
+        font-size: 1.100rem;
     }
 
     .titulo{
-        font-size: 1.000rem;
-        font-family: var(--font-Segundaria);
-        color: var(--cor-Segundaria);
-
+        font-size: 1.100rem;
     }
 
     .texto {
-        color: var(--cor-Segundaria);
-        font-size: 0.700rem;
-        font-family: "Playfair Display", serif;
+        font-size: 1.00rem;       
     }
 
 
     .subMAX {
         font-size: 1.100rem;
-        font-family: "Kanit", serif;
-        font-weight: 500;
-        color: var(--cor-Segundaria);
     }
 
-
-    .botao {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-top: 5%;
-    }
-    
-    .supra_botao {
-        display: flex;
-        justify-content: center;
-        gap: 10%;
-        border: 0.125rem solid var(--cor-Terciaria);
+    .supra_botao { 
         width: 50%;
-        border-radius: 0.5rem;
-        text-align: center;
-        font-size: 1.20rem;
-        padding: 0.625rem 1.900rem;
-        text-decoration: none;
-        color: var(--cor-Segundaria);
-        font-family: var(--font-Primaria);
+        font-size: 1.40rem;
+        padding: 0.325rem 1.900rem;
     }
     
     .GitHubIcon {
-        width:1.300rem;
-
+        width:1.600rem;
     }
+
+    .nome-apresentacao {
+        font-size: 1.5rem;   
+    }
+    
+    .Sobre-min {
+        font-size: 0.80rem;
+     }
+
 
 
 
@@ -444,103 +400,87 @@ gap:20px;
 
 
 
-    .nome-apresentacao {
-        font-family: var(--font-Segundaria);
-        color: var(--cor-Terciaria);
-        font-size: 1.200rem;
-    }
     
-    .Sobre-min {
-        font-family: var(--font-Primaria);
-        font-size: 0.800rem;
-        font-weight: 500;
-        color: var(--cor-Segundaria);
+    .apresentacao{
+        width: auto;
+        margin: 2.100rem 0.800rem;
+    }
+    .apresentacaoDestaque{
+        font-size: 0.80rem;
+    }
+    .titulo{
+        font-size: 0.80rem;
+    }
+    .texto{
+    font-size: 0.60rem;
+        
+    }
+
+    .subMAX{
+     font-size: 1.0rem; 
+    }
+
+
+.nome-apresentacao{
+    font-size: .90rem; 
+}
+
+.Sobre-min{
+font-size: 0.50rem;
+}
+
+ .sobre{
+font-size: 0.60rem;
+
+ }
+.ListaDeCompetencias{
+    font-size: 0.60rem;
+}
+
+.ListaDeAtividades{
+    font-size: 0.60rem;   
+}
+.ListaDeCursos{
+
+    font-size: 0.60rem;
+}
+
+.PeriodoETEC{
+    font-size: 0.7rem;
+}
+.PeriodoRaízen{
+    font-size: 0.7rem;
+
+}
+
+
+
+    .rodape {
+        font-size: 1.00rem;
     }
     
 
-    .rodape {
-        padding: 1%;
-        color: var(--cor-Primaria);
-        background-color: var(--cor-Terciaria);
-        text-align: center;
-        font-family: var(--font-Segundaria);
-        font-size: 1.500rem;
-        font-weight: 300;
-    }
-    
     .Curricolo {
-        font-family: var(--font-Segundaria);
-        color: var(--cor-Terciaria);
-        font-size: 1.4400rem;
+        font-size: 1.300rem;
     }
 
 
 
     .Competências {
-        font-family: var(--font-Segundaria);
-        color: var(--cor-Terciaria);
-        font-size: 1.4400rem;
+        font-size: 1.300rem;
     }
 
     .Experiências {
-        font-family: var(--font-Segundaria);
-        color: var(--cor-Terciaria);
-        font-size: 1.4400rem;
+        font-size: 1.300rem;
     }
 
 
     .Formação-Acadêmica {
-        font-family: var(--font-Segundaria);
-        color: var(--cor-Terciaria);
-        font-size: 1.4400rem;
+        font-size: 1.300rem;
     }
-
-
-    .sobre {
-        font-family: var(--font-Primaria);
-        font-weight: 500;
-        color: var(--cor-Segundaria);
-    }
-
-
-
-
-    .ListaDeCompetencias {
-        font-family: var(--font-Primaria);
-        font-weight: 500;
-        color: var(--cor-Segundaria);
-    }
-
-
-.PeriodoRaízen {
-    font-family: var(--font-Segundaria);
-    font-weight: 500;
-    color: var(--cor-Segundaria);
-}
-
-.ListaDeAtividades {
-    font-family: var(--font-Primaria);
-    font-weight: 500;
-    color: var(--cor-Segundaria);
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
 }
     
 }  
-
-
-
-
-  
