@@ -3,7 +3,7 @@
 :root{
     --cor-Primaria: #000000;
     --cor-Segundaria: #ffffff;
-    --cor-Terciaria: #00ffc3;
+    --cor-Terciaria: #ff0000;
     --font-Primaria:"Montserrat",  sans-serif;
     --font-Segundaria:"Roboto Mono", monospace;
 }
@@ -243,38 +243,24 @@ width: auto;
 
   /* Para celulares médios */
   @media (max-width: 769px) {
-    body {
-      background-color: rgb(18, 27, 18);
-    }
- 
-    
-
 
     .LinkCabecalhoHome {
-    color: var(--cor-Segundaria);
-    font-family: var(--font-Segundaria);
     font-size: 1.400rem;
     font-weight: 500;
-    text-decoration: none;
-    
+
 }
 
 .LinkCabecalhoSobremin {
-    color: var(--cor-Segundaria);
-    font-family: var(--font-Segundaria);
     font-size: 1.400rem;
     font-weight: 500;
     text-decoration: none;
 }
 
 .LinkCabecalhoCurricolo {
-    color: var(--cor-Segundaria);
-    font-family: var(--font-Segundaria);
     font-size: 1.400rem;
     font-weight: 500;
     text-decoration: none;
 }
-
 
 
 
@@ -290,14 +276,10 @@ width: auto;
 
     .apresentacaoDestaque {
         font-size: 1.5rem;
-        font-family: var(--font-Segundaria);
-        color: var(--cor-Terciaria);
     }
    
     .titulo {
         font-size: 1.125rem;
-        font-family: var(--font-Segundaria);
-        color: var(--cor-Segundaria);
     }
     
 
@@ -314,18 +296,10 @@ width: auto;
         }
         
         .supra_botao {
-            display: flex;
-            justify-content: center;
             gap: 10%;
-            border: 0.125rem solid var(--cor-Terciaria);
             width: 50%;
-            border-radius: 0.5rem;
-            text-align: center;
             font-size: 1.875rem;
             padding: 0.625rem 2.900rem;
-            text-decoration: none;
-            color: var(--cor-Segundaria);
-            font-family: var(--font-Primaria);
         }
         
         .GitHubIcon {
@@ -334,64 +308,85 @@ width: auto;
 }
 
   
-@media (max-width: 480px) {
-    body {
-      background-color: rgb(31, 37, 40);
-    }
+@media (max-width: 481px) {
   
-    .LinkCabecalhoHome {
-     font-size: 0.900rem; 
+    .apresentacao{
+        width: auto;
+        margin: 3.300rem 0.800rem;
     }
-    
-    .LinkCabecalhoSobremin {
-      font-size: 0.900rem;
+    .apresentacaoDestaque{
+        font-size: 1.20rem;
     }
-    
-    .LinkCabecalhoCurricolo {
-        font-size: 0.900rem;
-    }
-    
-    .apresentacao {
-        margin: 2.100rem 0.900rem;
-        gap: 20px;
-    }
-
-    .apresentacaoDestaque {
-        font-size: 1.100rem;
-    }
-
     .titulo{
-        font-size: 1.100rem;
+        font-size: 1.20rem;
+    }
+    .texto{
+    font-size: 0.90rem;
+        
     }
 
-    .texto {
-        font-size: 1.00rem;       
+    .subMAX{
+     font-size: 1.20rem; 
     }
 
 
-    .subMAX {
-        font-size: 1.100rem;
-    }
+.nome-apresentacao{
+    font-size: 1.40rem; 
+}
 
-    .supra_botao { 
-        width: 50%;
-        font-size: 1.40rem;
-        padding: 0.325rem 1.900rem;
+.Sobre-min{
+font-size: 0.80rem;
+}
+
+ .sobre{
+font-size: 0.70rem;
+
+ }
+.ListaDeCompetencias{
+    font-size: 0.70rem;
+}
+
+.ListaDeAtividades{
+    font-size: 0.70rem;   
+}
+.ListaDeCursos{
+
+    font-size: 0.70rem;
+}
+
+.PeriodoETEC{
+    font-size: 0.8rem;
+}
+.PeriodoRaízen{
+    font-size: 0.8rem;
+
+}
+
+
+
+    .rodape {
+        font-size: 1.30rem;
     }
     
-    .GitHubIcon {
-        width:1.600rem;
+
+    .Curricolo {
+        font-size: 1.300rem;
     }
 
-    .nome-apresentacao {
-        font-size: 1.5rem;   
+
+
+    .Competências {
+        font-size: 1.300rem;
     }
-    
-    .Sobre-min {
-        font-size: 0.80rem;
-     }
+
+    .Experiências {
+        font-size: 1.300rem;
+    }
 
 
+    .Formação-Acadêmica {
+        font-size: 1.300rem;
+    }
 
 
 }
@@ -478,6 +473,32 @@ font-size: 0.60rem;
     .Formação-Acadêmica {
         font-size: 1.300rem;
     }
+
+.LinkCabecalhoCurricolo{
+font-size: 0.90rem;
+}
+
+.LinkCabecalhoHome{
+    font-size: 0.90rem;
+
+}
+
+.LinkCabecalhoSobremin{
+    font-size: 0.90rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
